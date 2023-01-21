@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+logowanie,Chrome 109.0.0.0,,,2023-01-21 17:18:44,2023-01-21 17:18:56,"12,400s",PASSED
+,,,,,,,
+Test Cases/wp/Logowanie_blad,Chrome 109.0.0.0,logowanie do poczty wp,,2023-01-21 17:18:44,2023-01-21 17:18:56,"12,251s",PASSED
+openBrowser(url),Chrome 109.0.0.0,,,2023-01-21 17:18:44,2023-01-21 17:18:47,"2,510s",PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-01-21 17:18:47,2023-01-21 17:18:47,"0,130s",PASSED
+"click(findTestObject(""Object Repository/morele_main/cookie""))",Chrome 109.0.0.0,,,2023-01-21 17:18:47,2023-01-21 17:18:47,"0,525s",PASSED
+"click(findTestObject(""Object Repository/morele_main/login""))",Chrome 109.0.0.0,,,2023-01-21 17:18:47,2023-01-21 17:18:52,"4,722s",PASSED
+"setText(findTestObject(""Object Repository/logowanie/input_mail""), mail)",Chrome 109.0.0.0,,,2023-01-21 17:18:52,2023-01-21 17:18:53,"1,171s",PASSED
+"setText(findTestObject(""Object Repository/logowanie/input_pass""), haslo)",Chrome 109.0.0.0,,,2023-01-21 17:18:53,2023-01-21 17:18:54,"1,139s",PASSED
+"click(findTestObject(""Object Repository/logowanie/login_button""))",Chrome 109.0.0.0,,,2023-01-21 17:18:54,2023-01-21 17:18:55,"0,576s",PASSED
+"el_error_msg = getText(findTestObject(""Object Repository/logowanie/login_error""))",Chrome 109.0.0.0,,,2023-01-21 17:18:55,2023-01-21 17:18:55,"0,567s",PASSED
+assert login_error == el_error_msg,Chrome 109.0.0.0,,,2023-01-21 17:18:55,2023-01-21 17:18:55,"0,001s",PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-21 17:18:55,2023-01-21 17:18:56,"0,623s",PASSED

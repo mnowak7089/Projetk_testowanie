@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>logowanie do poczty wp</description>
+   <name>Logowanie_blad</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f442aa3-b895-4163-a155-c08656ef5dd3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec7d3d33-1eed-4fa6-a4b9-ffb3249ff722</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>abdab53b-41b8-41ef-aa28-ca71f1ab39f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6eeee4ca-196e-45a8-8f1c-b2ce510e27bf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'qwerty@gmail.com'</defaultValue>
+      <description>mail uzytkownika</description>
+      <id>ec7d3d33-1eed-4fa6-a4b9-ffb3249ff722</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+   <variable>
+      <defaultValue>'qwertyfg123'</defaultValue>
+      <description>haslo uzytkownika</description>
+      <id>abdab53b-41b8-41ef-aa28-ca71f1ab39f9</id>
+      <masked>false</masked>
+      <name>haslo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nieprawidłowy adres e‑mail lub hasło'</defaultValue>
+      <description>blad logowania</description>
+      <id>6eeee4ca-196e-45a8-8f1c-b2ce510e27bf</id>
+      <masked>false</masked>
+      <name>login_error</name>
+   </variable>
+</TestCaseEntity>
